@@ -1,0 +1,109 @@
+body {
+	background-color: rgb(28, 28, 28);
+	color: whitesmoke;
+	margin: 0px;
+	height: 100vh;
+	border: 1px solid rgb(236, 236, 236);
+	position: relative;
+	border-radius: 5px;
+	border-top: 20px solid rgb(236, 236, 236);
+	display: flex;
+	justify-content: center;
+  font-family:'Times New Roman', Times, serif;
+}
+.roundR {
+  position: absolute;
+	left: 10px;
+	top: -16px;
+	background-color: rgb(229, 113, 18);
+	border: 1px solid rgb(229, 113, 18);
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+}
+
+.roundG {
+  position: absolute;
+	left: 25px;
+	top: -16px;
+	background-color: rgb(60, 127, 60);
+	border: 1px solid rgb(60, 127, 60);
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+}
+
+.roundB {
+  position: absolute;
+	left: 40px;
+	top: -16px;
+	background-color: rgb(24, 24, 152);
+	border: 1px solid rgb(24, 24, 152);
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+}
+
+.title {
+  margin-top: 10px;
+  padding-left: 10px;
+	font-style: italic;
+	font-size: 25px;
+	text-align: center;
+	color: whitesmoke;
+	text-decoration: overline;
+	font-stretch: extra-expanded;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-shadow: 1px 1px 3px #f5f5f5;
+}
+
+.intro {
+  font-size: 17px;
+  padding: 10px 0 10px 20px;
+}
+
+.intro input {
+  background-color: #f5f5f5;
+	color: rgb(28, 28, 28);
+	border: 1px solid whitesmoke;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.intro .name {
+  margin-bottom: 10px;
+}
+
+.age {
+  margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+.age select {
+  margin-left: 10px;
+}
+
+.course {
+  margin-top: 20px;
+	text-align: center;
+	color: whitesmoke;
+}
+
+.back {
+  border: 1px solid none;
+  height: 380px;
+  width: 50px;
+  background-image: url(./black-and-white-pattern-background/OPH6GI0.jpg);
+  background-repeat: no-repeat;
+  opacity: 10%;
+  margin-right: 10px;
+}
+
+.comment {
+  margin-top: 30px;
+}
+
+.butt {
+  text-align: center;
+}

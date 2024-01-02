@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Survey</title>
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	<body>      
+    <div class="back"></div>
+		<div class="main">
+      <div class="round">
+        <div class="roundR"></div>
+        <div class="roundG"></div>
+        <div class="roundB"></div>
+      </div>
+			<div class="title">
+				<h3>Survey</h3>
+			</div>
+			<div class="intro">
+				<div class="name">
+					Name :
+					<input
+						type="text"
+						id="name"
+						name="name"
+						minlength="3"
+						maxlength="6"
+						size="3"
+						required
+					/>
+				</div>
+				<div class="mail">
+					Email :
+					<input
+						type="text"
+						id="E-mail"
+						name="E-mail"
+						minlength="6"
+						maxlength="20"
+						size="15"
+						required
+					/>
+        </div>
+			</div>
+			<div class="age">
+          Q. What's your age?
+          <select id="age" name="age">
+            <option value="10">10</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+            <option value="50">50</option>
+            <option value="60≤">60≤</option>
+          </select>
+			</div>
+			<div class="course">
+          <p>Q. What's your preferred course?</p>
+          <input type="checkbox" name="html" value="html" />html
+          <input type="checkbox" name="javascript" value="javascript" />javascript
+          <input type="checkbox" name="css" value="css" />css
+      </div>
+      <div class="comment">
+        <textarea id="comment" name="comment" rows="4" cols="30">
+        </textarea>
+        <p>
+          <input type="button" name="submit" value="sub"/>
+        </p>
+      </div>
+    </div>
+	</body>
+</html>
